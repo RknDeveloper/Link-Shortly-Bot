@@ -13,7 +13,7 @@ class Database:
             _id=int(id),                                   
         )
 
-    async def send_log(b, u):
+    async def send_log(self, b, u):
         me = await b.get_me()
         if Config.LOG_CHANNEL is not None:
             curr = datetime.datetime.now(pytz.timezone("Asia/Kolkata"))
