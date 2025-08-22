@@ -13,12 +13,12 @@
 
 ## 📊 Project Stats
 
-[![Stars](https://img.shields.io/github/stars/RknDeveloper/link-shortly-bot?style=for-the-badge&logo=github&color=yellow)](https://github.com/RknDeveloper/link-shortly-bot/stargazers)
-[![Forks](https://img.shields.io/github/forks/RknDeveloper/link-shortly-bot?style=for-the-badge&logo=github&color=brightgreen)](https://github.com/RknDeveloper/link-shortly-bot/network/members)
-[![Issues](https://img.shields.io/github/issues/RknDeveloper/link-shortly-bot?style=for-the-badge&logo=github&color=red)](https://github.com/RknDeveloper/link-shortly-bot/issues)  
-[![License](https://img.shields.io/github/license/RknDeveloper/link-shortly-bot?style=for-the-badge&logo=open-source-initiative&color=blue)](https://github.com/RknDeveloper/link-shortly-bot/blob/main/LICENSE)
-[![Last Commit](https://img.shields.io/github/last-commit/RknDeveloper/link-shortly-bot?style=for-the-badge&logo=git&color=orange)](https://github.com/RknDeveloper/link-shortly-bot/commits/main)
-[![Contributors](https://img.shields.io/github/contributors/RknDeveloper/link-shortly-bot?style=for-the-badge&logo=github&color=purple)](https://github.com/RknDeveloper/link-shortly-bot/graphs/contributors)
+[![Stars](https://img.shields.io/github/stars/RknDeveloper/Link-Shortly-Bot?style=for-the-badge&logo=github&color=yellow)](https://github.com/RknDeveloper/Link-Shortly-Bot/stargazers)
+[![Forks](https://img.shields.io/github/forks/RknDeveloper/Link-Shortly-Bot?style=for-the-badge&logo=github&color=brightgreen)](https://github.com/RknDeveloper/Link-Shortly-Bot/network/members)
+[![Issues](https://img.shields.io/github/issues/RknDeveloper/Link-Shortly-Bot?style=for-the-badge&logo=github&color=red)](https://github.com/RknDeveloper/Link-Shortly-Bot/issues)  
+[![License](https://img.shields.io/github/license/RknDeveloper/Link-Shortly-Bot?style=for-the-badge&logo=open-source-initiative&color=blue)](https://github.com/RknDeveloper/Link-Shortly-Bot/blob/main/LICENSE)
+[![Last Commit](https://img.shields.io/github/last-commit/RknDeveloper/Link-Shortly-Bot?style=for-the-badge&logo=git&color=orange)](https://github.com/RknDeveloper/Link-Shortly-Bot/commits/main)
+[![Contributors](https://img.shields.io/github/contributors/RknDeveloper/Link-Shortly-Bot?style=for-the-badge&logo=github&color=purple)](https://github.com/RknDeveloper/Link-Shortly-Bot/graphs/contributors)
 
 
 ## Deploy Me 🥀
