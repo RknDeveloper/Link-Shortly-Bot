@@ -10,7 +10,9 @@ class Database:
 
     def new_user(self, id):
         return dict(
-            _id=int(id),                                   
+            _id=int(id),
+            api_key=None,
+            base_site=None
         )
 
     async def send_log(self, b, u):
