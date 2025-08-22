@@ -1,0 +1,39 @@
+{
+    "name": "Link Shortly Bot",
+    "description": "Telegram Link Shortly Bot ",
+    "logo": "https://files.catbox.moe/4to5eu.jpg",
+    "keywords": ["Link Shortly Bot", "Telegram Bot", "Mongo DB"],    
+    "repository": "https://github.com/RknDeveloper/link-shortly-bot",
+    "env": {
+        "API_ID": {
+            "description": "🔐 Your Telegram API ID — Get it from https://my.telegram.org OR use @ApiScrapManBot to fetch easily.",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "🧩 Your Telegram API Hash — Get it from https://my.telegram.org OR use @ApiScrapManBot.",
+            "value": ""
+        },
+        "BOT_TOKEN": {
+            "description": "🤖 Your Bot Token from @BotFather — Use /newbot to create one and paste token here.",
+            "value": ""
+        },
+        "LOG_CHANNEL": {
+            "description":"Bot Log Sending Channel (just create a private channel and add bot to admin and take channel id to add this variable) ⚠️ id startswith -100 must",
+            "required": false           
+        },
+        "DB_URL": {
+            "description": "Your Mongo DB URL Obtained From mongodb.com",
+            "value": ""
+        },
+        "DB_NAME":{ 
+            "description":"Your Mongo DB Database Name ",
+            "value": "Rkn-Developer",
+            "required": false
+        },
+        "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}
+}
