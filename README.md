@@ -68,9 +68,9 @@
 
 ## Botfather Commands
 ```
-start - Bot Alive Cheking.
-set_site - To Rrstart The Bot
-set_api - Check Bot Status
+start - Check if the bot is alive and get the welcome message
+set_site - Set your custom site URL for link shortener
+set_api - Set your API key for authentication
 ```
 
 ## ❣️Thanks To
