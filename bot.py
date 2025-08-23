@@ -46,16 +46,28 @@ async def set_api(client, message):
     await db.set_api(user_id, api_key)  # save in database
     await message.reply_text(f"✅ API key has been saved!\n\n<code>{api_key}</code>", quote=True)
 
-# /set_site <BASE_URL>
+# Simple domain validation regex
+DOMAIN_REGEX = re.compile(
+    r"^(?:[a-zA-Z0-9-]+\.)+[a-zA-Z]{2,}$"
+)
+
 @bot.on_message(filters.private & filters.command("set_site"))
 async def set_site(client, message):
     if len(message.command) < 2:
-        return await message.reply_text("❌ Usage: `/set_site https://example.com`", quote=True)
+        return await message.reply_text("❌ Usage: `/set_site example.com`", quote=True)
 
     base_url = message.command[1]
-    user_id = message.from_user.id
 
-    await db.set_site(user_id, base_url)  # save in database
+    # Agar https:// ya http:// diya toh hatao
+    base_url = re.sub(r'^https?://', '', base_url)
+    base_url = base_url.rstrip("/")  # last / hatao
+
+    # Validation: check ki sirf domain ho
+    if not DOMAIN_REGEX.match(base_url):
+        return await message.reply_text("❌ Only domain link is allowed!\n\n✅ Example: `example.com`", quote=True)
+
+    user_id = message.from_user.id
+    await db.set_site(user_id, base_url)
     await message.reply_text(f"✅ Base site has been saved!\n\n<code>{base_url}</code>", quote=True)
     
 # Regex pattern for valid http or https URL
