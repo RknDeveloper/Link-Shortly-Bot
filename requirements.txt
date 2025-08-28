@@ -2,7 +2,7 @@ pyrofork
 TgCrypto
 motor
 pymongo
-link-shortly==0.0.3
+link-shortly==0.0.4
 dnspython==2.6.1
 hachoir==3.2.0
 Pillow==10.3.0 
