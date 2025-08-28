@@ -98,7 +98,7 @@ async def auto_shortener(client, message):
 
     try:
         shortener = Shortly(api_key=api_key, base_url=base_url)
-        short_link = shortener.convert(url)
+        short_link = await shortener.convert(url)
 
         await message.reply_text(
             f"🔗 Original Link: <code>{url}</code>\n🖇️ Shortened Link: <code>{short_link}</code>",
