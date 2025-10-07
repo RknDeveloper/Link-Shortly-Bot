@@ -8,7 +8,7 @@ from aiohttp import web
 from helper.database import db
 
 from shortly import Shortly
-from shortly.exceptions import (
+from shortly.errors import (
     ShortlyError
 )
 
